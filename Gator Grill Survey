@@ -1,0 +1,52 @@
+
+<body>
+  <h1 id="title">Customer Feedback Survey</h1>
+
+    <p id="description"> It was a pleasure serving you at Gator Grill today. Please take a moment to provide feedback for out team. We look     forward to seeing you again! </p>
+
+      <form form id="survey-form">
+
+        <p id="name"> Name:
+          <input type="text" name="Name (optional)" placeholder="Enter your name" size= "15" maxlength="50"/>
+        </p>
+
+        <p id="email"> Email:
+        <input type="email" name="Email" id="email-label" placeholder="Enter your email" email"size= "15" maxlength="60"/>
+        </p>
+
+        <p id="Number"> Age:
+        <input type="number" name="Number" id="number-label" min="5" max= "200000000000000000" id="number" placeholder="Enter your age" size= "15"          maxlength="2"/>
+        </p>
+
+        <p id="Times"> How many times have you visited us?
+        <input type="number" name="Times" id="timesr" placeholder="Enter number of visits" size= "15" maxlength="6000000000000"/>
+        </p>
+
+        <p id="role" id="dropdown"> Describe your current role:
+        <select>
+        <option value="city resident">city resident</option>
+        <option value="county resident">county resident</option>
+        <option value="traveler">traveler</option>
+        </select>
+        </p>
+
+        <p id="Reccomendation"> How likely is that you would recommend Gator Grill to a friend?<br>
+          <input type="radio" name="likelihood" value="Definitely"> Definitely<br>
+          <input type="radio" name="likelihood" value="Maybe"> Maybe<br>
+          <input type="radio" name="likelihood" value="Not sure"> Not sure<br>
+          <input type="radio" name="likelihood" value="Not likely"> Not likely
+       </p>
+
+       Things that should be improved in the future
+       (Check all that apply):<br>
+        <input type="checkbox" name="Food served" value="Food served"> Food served<br>
+        <input type="checkbox" name="Service" value="Service"> Service<br>
+        <input type="checkbox" name="Decor" value="Decor"> Decor<br>
+        <input type="checkbox" name="Weekly events" value="Weekly events"> Weekly events<br>
+        <input type="checkbox" name="Bathrooms" value="Bathrooms"> Bathrooms<br>
+
+  <p> Do you have any additional comments and/or suggestions?<br>                                        <textarea placeholder="Enter your comments and suggestions here...">
+        </textarea><br><br>
+
+        <button type="submit" id="submit">Submit</button>
+    </form>
