@@ -1,0 +1,32 @@
+*{ font-family: Arial, Verdana, sans-serif;color: black}
+
+body {
+  font-family: arial;
+  background-color: lightblue;
+}
+
+h1{ 
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 50px;
+  color: white;
+  font-size: 50px;
+  background-color: lightblue; 
+    background-image: linear-gradient(teal, white);
+}
+
+#description{ 
+  font-family: Arial;
+}
+
+#customer input{
+  border-width: 2px;
+  
+}
+
+#description{
+  text-align: center;
+  padding: 30px;
+}
+
