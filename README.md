@@ -4,3 +4,5 @@ This is a marketing tool to be used to aquire new business; this repo provides a
 10/9 - I used the HTML/CSS text by Duckett to better organize the code and delete superflous code.
 10/14 - I used the HTML/CSS text by Duckett to add CSS elements for aesthetic appeal
 10/18 - CSS additions proving to be difficult. May need help with this.
+
+Used Freecode camp user stories.
