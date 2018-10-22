@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
+    <title>Customer Feedback Survey</title>
+  </head>
+
+  <body>
+   <h1 id="survey-title">
+     <center>Customer Feedback Survey</center>
+   </h1>
+   <h2 class="heading">
+    <center> Gator Grill - Miami, FL</center><br>
+     <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/af/a3/gator-grill-homestead.jpg" class="center" alt="Gator Grill"><br>
+
+   </h2>
+   <form action="www.example.com/survey/gatorgrill.php" id="survey-form" method="get">
+
+   <h3>
+     <center>It was a pleasure serving you at Gator Grill today. Please take a moment to provide feedback
+    for our team so we can better serve you in the future. We look forward to seeing you again!</center>
+   </h3><hr>
+
+   <h4>
+     <em>Please tell us a little about yourself.</em>
+   </h4>
+
+   <label id="name-label"> Name (optional): <input type="text" name="Name (optional)" placeholder="Enter your name" size= "15" maxlength="50"</label><br></br>
+
+   <label id="email-label"> Email: <input type="email" name="Email" id="email-label" placeholder="Enter your email" email"size= "15"
+    maxlength="60"/> </label><br></br>
+    <label id="Age"> Age: <input type="number" name="Number" id="number-label" min="5" max= "120" id="number" placeholder="Enter age" size="145555" maxlength="2655555"/> </label><br></br>
+
+    <label id="role" id="dropdown"> Describe your current role:
+    <select>
+    <option value="city resident">city resident</option>
+    <option value="county resident">county resident</option>
+    <option value="traveler">traveler</option>
+    </select></label><br><hr>
+
+    <h4>
+     <em>Kindly rate your satisfaction with...</em>
+    </h4>
+
+    <table>
+     <tr>
+      <th></th>
+      <th style="text-align:center">Highly Satisfied</th>
+      <th style="text-align:center">Satisfied</th>
+      <th style="text-align:center">Neutral opinion</th>
+      <th style="text-align:center">Dissatisfied</th>
+      <th style="text-align:center">Highly Dissatisfied</th>
+      </tr><tr>
+      <td>Overall cleanliness at our location</td>
+      <td style="text-align:center">
+       <input type="radio" align="center"
+        name="highly satisfied" value="5">
+      </td>
+      <td style="text-align:center">
+       <input type="radio" name="satisfied"
+       value="4">
+      </td>
+      <td style="text-align:center">
+       <input type="radio" name="Neutral opinion"
+       value="3">
+      </td>
+      <td style="text-align:center">
+       <input type="radio" name="Dissatisfied"
+       value="2">
+      </td>
+      <td style="text-align:center">
+       <input type="radio" name="Highly Dissatisfied" value="1">
+      </td>
+  </tr>
+  <tr>
+    <td>Speed of service</td>
+    <td style="text-align:center">
+      <input type="radio" name="highly satisfied" value="5">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="satisfied" value="4">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Neutral opinion" value="3">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Dissatisfied" value="2">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Highly Dissatisfied" value="1">
+    </td>
+  </tr>
+  <tr>
+    <td>Taste of food</td>
+    <td style="text-align:center">
+      <input type="radio" name="highly satisfied" value="5">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="satisfied" value="4">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Neutral opinion" value="3">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Dissatisfied" value="2">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Highly Dissatisfied" value="1">
+    </td>
+  </tr>
+  <tr>
+    <td>Friendliness of our staff</td>
+     <td style="text-align:center">
+      <input type="radio" name="highly satisfied" value="5">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="satisfied" value="4">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Neutral opinion" value="3">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Dissatisfied" value="2">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Highly Dissatisfied" value="1">
+    </td>
+  </tr>
+  <tr>
+    <td>Overall value for the price you paid</td>
+    <td style="text-align:center">
+      <input type="radio" name="highly satisfied" value="5">
+    </td>
+      <td style="text-align:center">
+      <input type="radio" name="satisfied" value="4">
+      </td>
+    <td style="text-align:center">
+      <input type="radio" name="Neutral opinion" value="3">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Dissatisfied" value="2">
+    </td>
+    <td style="text-align:center">
+      <input type="radio" name="Highly Dissatisfied" value="1">
+    </td>
+  </tr>
+  <tr>
+  </tr>
+</table><br><hr>
+
+<h4>
+ <em>Assist us by answering this series of questions asking about your experience(s) with us here at Gator Grill.</em>
+</h4>
+
+    <label id="Times"> How many times have you visited us?
+    <input type="number"  name="Times" id="times" placeholder="Enter number of visits" size= "15" maxlength="6000000000000"/>
+      </label><br></br>
+
+    <label id= "Reccomendation"> How likely is that you would recommend Gator Grill to a friend?<br>
+    <input type="radio" name="likelihood" value="Definitely"> Definitely<br>
+    <input type="radio" name="likelihood" value="Maybe"> Maybe<br>
+    <input type="radio" name="likelihood" value="Not sure"> Not sure<br>
+    <input type="radio" name="likelihood" value="Not likely"> Not likely
+      </label><br></br>
+
+    <label id ="Weekly events you have attended">
+    Which weekly events you have attended at our restaurant?
+    (Check all that apply):<br>
+    <input type="checkbox" name="Karaoke Friday" value="Karaoke Friday"> Karaoke Friday<br>
+    <input type="checkbox" name="Poker Sunday" value="Poker Sunday"> Poker Sunday<br>
+    <input type="checkbox" name="$1 Wing Wednesday" value="$1 Wing Wednesday"> $1 Wing Wednesday<br>
+    <input type="checkbox" name="Trivia Tuesday" value="Trivia Tuesday"> Trivia Tuesday<br>
+    </label><br>
+
+  <label id="Type comments and/or suggestions here"> Do you have any additional comments and/or suggestions?<br>                                     <textarea rows="4" cols="50" placeholder="Type any additional comments and/or suggestions here..."></textarea>
+  </textarea></label><br><br>
+
+  <button type="submit" id="submit">Submit</button>
+
+ </form>
+</body>
+
+
+
+</body>
+
+</html>
