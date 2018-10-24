@@ -2,7 +2,7 @@
 
 Deliverables <br><br>
 
--#1: I can see a title with id="title" in H1 sized text.<br>
+-#1: I can see a title with id="title" in H1 sized text.<br><br>
 -#2: I can see a short explanation with id="description" in P sized text.<br>
 -#3: I can see a form with id="survey-form". <br>
 -#4: Inside the form element, I am required to enter my name in a field with id="name".<br>
