@@ -2,35 +2,34 @@
 <html lang="en" >
 
   <head>
-    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" >
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
     <title>Customer Feedback Survey</title>
   </head>
 
   <body>
-   <h1 id="survey-title">
-     <center>Customer Feedback Survey</center>
-   </h1>
-   <h2 class="heading">
-    <center> Gator Grill - Miami, FL</center><br>
-     <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/af/a3/gator-grill-homestead.jpg" class="center" alt="Gator Grill"><br>
+    <h1 id= "title">
+      <center>Customer Feedback Survey</center>
+    </h1>
 
+    <h2 class="heading">
+      <center> Gator Grill - Key West, FL</center><br>
+      <img src="https://media-cdn.tripadvisor.com/media/photo-s/02/28/af/a3/gator-grill-homestead.jpg" class="center" alt="Gator Grill"><br>
    </h2>
+
    <form action="www.example.com/survey/gatorgrill.php" id="survey-form" method="get">
 
-   <h3>
-     <center>It was a pleasure serving you at Gator Grill today. Please take a moment to provide feedback
+   <h3 id="description">
+     <center>It was a pleasure serving you at Gator Grill today. <br>Please take a moment to provide feedback
     for our team so we can better serve you in the future. We look forward to seeing you again!</center>
-   </h3><hr>
+  </h3><hr>
 
-   <h4>
-     <em>Please tell us a little about yourself.</em>
-   </h4>
+   <h4 class="heading"> Please tell us a little about yourself.</h4>
 
-   <label id="name-label"> Name (optional): <input type="text" name="Name (optional)" placeholder="Enter your name" size= "15" maxlength="50"</label><br></br>
+   <label id="name"> Name (optional): <input type="text" name="Name (optional)" placeholder="Enter your name" size= "15" maxlength="50"</label><br></br>
 
-   <label id="email-label"> Email: <input type="email" name="Email" id="email-label" placeholder="Enter your email" email"size= "15"
+   <label id="email"> Email: <input type="email" name="Email" id="email-label" placeholder="Enter your email" email"size= "15"
     maxlength="60"/> </label><br></br>
-    <label id="Age"> Age: <input type="number" name="Number" id="number-label" min="5" max= "120" id="number" placeholder="Enter age" size="145555" maxlength="2655555"/> </label><br></br>
+    <label id="Age"> Age: <input type="number" name="Number" id="number" min="5" max= "120" id="number" placeholder="Enter age" size="145555" maxlength="2655555"/> </label><br></br>
 
     <label id="role" id="dropdown"> Describe your current role:
     <select>
@@ -39,9 +38,7 @@
     <option value="traveler">traveler</option>
     </select></label><br><hr>
 
-    <h4>
-     <em>Kindly rate your satisfaction with...</em>
-    </h4>
+    <h4 class="heading"> Kindly rate your satisfaction with...</h4>
 
     <table>
      <tr>
@@ -149,9 +146,7 @@
   </tr>
 </table><br><hr>
 
-<h4>
- <em>Assist us by answering this series of questions asking about your experience(s) with us here at Gator Grill.</em>
-</h4>
+<h4 class="heading"> Assist us by answering this series of questions asking about your experience(s) with us here at Gator Grill.</h4>
 
     <label id="Times"> How many times have you visited us?
     <input type="number"  name="Times" id="times" placeholder="Enter number of visits" size= "15" maxlength="6000000000000"/>
@@ -173,16 +168,11 @@
     <input type="checkbox" name="Trivia Tuesday" value="Trivia Tuesday"> Trivia Tuesday<br>
     </label><br>
 
-  <label id="Type comments and/or suggestions here"> Do you have any additional comments and/or suggestions?<br>                                     <textarea rows="4" cols="50" placeholder="Type any additional comments and/or suggestions here..."></textarea>
-  </textarea></label><br><br>
+    <label id="Type comments and/or suggestions here"> Do you have any additional comments and/or suggestions?<br>                                     <textarea rows="4" cols="50" placeholder="Type any additional comments and/or suggestions here..."></textarea>
+    </textarea></label><br><br>
 
   <button type="submit" id="submit">Submit</button>
 
- </form>
-</body>
-
-
-
-</body>
-
+    </form>
+  </body>
 </html>

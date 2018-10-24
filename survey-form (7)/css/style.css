@@ -2,44 +2,39 @@
 * {
   background-color: lightblue;
   font-family: georgia, sans-serif;
-  color: gray;
 }
 
-#survey-title {
-  font-size: 45px ;
-  color: teal !important;
+#title {
+  color: teal;
+  font-size: 55px;
+}
+
+.heading {
+  color: gray;
+  font-size: 25px;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 50%;
-    border-width: thick;
-    border-color: white;
-    border-style: solid;
-    border-radius: 25px;
-}
-
-#customerinput{
-  border-width: 2px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  border-width: thick;
+  border: solid teal;
+  border-radius: 25px;
+  max-width: 500px;
 }
 
 #description{
   text-align: center;
   padding: 30px;
-}
-
-#dropdown {
-  color:white;
+  margin: 10px 100px 10px 100px;
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    border-color: black;
     width: 100%;
 }
 
@@ -47,7 +42,5 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    border-color: black;
 }
-
-tr:nth-child(even) {
-    background-color: #dddddd;
