@@ -2,6 +2,8 @@
 
 Deliverables <br><br>
 
+**Please note I am concerned with the confusion between #7 and #10! I am also unsure about overall quality of code and redundancies. Thank you for helping me clean up my code!
+
 -#1: I can see a title with id="title" in H1 sized text.<br><br>
 -#2: I can see a short explanation with id="description" in P sized text.<br><br>
 -#3: I can see a form with id="survey-form". <br><br>
@@ -19,4 +21,4 @@ Deliverables <br><br>
 -#15: Inside the form element, I am presented with a textarea at the end for additional comments.<br><br>
 -#16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.<br><br>
 
-**Please note I am concerned with the confusion between #7 and #10! I am also unsure about overall quality of code and redundancies. Thank you for helping me clean up my code!
+
