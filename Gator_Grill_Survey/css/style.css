@@ -1,0 +1,46 @@
+
+* {
+  background-color: lightblue;
+  font-family: georgia, sans-serif;
+}
+
+#title {
+  color: teal;
+  font-size: 55px;
+}
+
+.heading {
+  color: gray;
+  font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+  border-width: thick;
+  border: solid teal;
+  border-radius: 25px;
+  max-width: 500px;
+}
+
+#description{
+  text-align: center;
+  padding: 30px;
+  margin: 10px 100px 10px 100px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    border-color: black;
+}
